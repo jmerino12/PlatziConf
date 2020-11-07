@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="5dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="@dimen/cardCornesRadius"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altoImageViewHome"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:text="Nombre expositor"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="@dimen/nameTitulo"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Trabajo expositor"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/subti"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

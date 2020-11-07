@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Inicio"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/navHomeFragment"
+        />
+    <item
+        android:title="Cronograma"
+        android:icon="@drawable/ic_baseline_list_24"
+        android:id="@+id/navCronogramaFragment"
+        />
+    <item
+        android:title="Expositores"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:id="@+id/navExpositoresFragment"
+        />
+    <item
+        android:title="Mapa"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:id="@+id/navMapaFragment"
+        />
+</menu>
